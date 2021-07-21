@@ -6,14 +6,24 @@
 //
 
 import UIKit
-
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
+class ViewController: UIViewController
+{
+  @IBOutlet weak var blue: UIImageView!
+  override func viewDidLoad()
+  {
+    super.viewDidLoad()
+  }
+  @IBAction func readMore(_ sender: UIButton)
+  {
+    blue.image = UIImage(named: "blueInfo");
+    if blue.isHidden == true
+    {
+      blue.isHidden = false;
     }
-
+    else
+    {
+      blue.isHidden = true;
+    }
+  }
 }
 
