@@ -1,9 +1,11 @@
 //
-//  ViewController.swift
+//  aniPal dee dee.swift
 //  aniPal
 //
-//  Created by  Scholar on 7/20/21.
+//  Created by Estella Sky Keyoung on 7/21/21.
 //
+
+import Foundation
 
 import UIKit
 class ViewController: UIViewController
@@ -28,4 +30,3 @@ class ViewController: UIViewController
     
 
 }
-
